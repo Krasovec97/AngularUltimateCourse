@@ -1,0 +1,25 @@
+.left-side{
+  height: 100vh;
+  background-color: lightgray;
+  color: gray;
+  display: block;
+  text-align: center;
+  padding-top: 30vh;
+  z-index: 1;
+}
+
+.card{
+  background-color: black;
+  color: white;
+  display:flex;
+  padding: 45px;
+  margin-top: 30vh;
+  margin-left: 3vh;
+  position: absolute;
+
+}
+
+.right-side{
+  text-align: center;
+  padding-top: 50vh;
+}
