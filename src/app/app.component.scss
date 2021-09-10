@@ -1,0 +1,30 @@
+
+
+.step-one-overlay{
+  position: relative;
+}
+
+.step-one {
+  background-image: url('./images/pngegg.png');
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+}
+.step-one-header{
+  color: white;
+  padding-top: 50%;
+  display: block;
+}
+
+.step-two {
+  background-color: royalblue;
+  height: 50vh;
+  text-align: left;
+  padding-left: 25px;
+}
+.step-two-header{
+  color: white;
+  padding-top: 50%;
+  display: block;
+
+}
