@@ -1,14 +1,17 @@
 <div class="container">
   <div class="row">
     <div class="col-4">
-      <div class="step-one-overlay">
-        <div class="step-one" *ngIf="router.url === '/'">
+      <div class="step-one-overlay" *ngIf="router.url === '/'">
+        <div class="step-one">
           <h1 class="step-one-header">Start your business Today!</h1>
         </div>
       </div>
       <div class="step-two" *ngIf="router.url === '/step-two'">
         <h1 class="step-two-header" style="font-size: 24px;">Just a few clicks away!</h1>
         <p style="color: lightgray;">We just need some basic information!</p>
+      </div>
+      <div class="final-step" *ngIf="router.url === '/final-step'">
+        NGIF WORKS
       </div>
     </div>
     <div class="col-8">

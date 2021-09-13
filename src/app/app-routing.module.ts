@@ -1,3 +1,4 @@
+import { FinalStepComponent } from './final-step/final-step.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { StepOneComponent } from './step-one/step-one.component';
 import { NgModule } from '@angular/core';
@@ -7,6 +8,7 @@ import { StepTwoComponent } from './step-two/step-two.component';
 const routes: Routes = [
   { path: '', component: StepOneComponent, pathMatch: 'full' },
   { path: 'step-two', component: StepTwoComponent },
+  { path: 'final-step', component: FinalStepComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
